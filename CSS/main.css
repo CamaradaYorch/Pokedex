@@ -13,7 +13,7 @@ header {
     opacity: 0.8;
     padding: 1px;
     margin: auto;
-    width: 92%;
+    width: 80%;
     border: 1%;
     padding: 2%;
     text-align: center;
@@ -132,9 +132,9 @@ input:-moz-placeholder {
 main {
     background-color: rgb(181, 194, 185);
     opacity: 0.9;
-    margin-left: 6%;
-    margin-right: 6%;
-    border: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 20%;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: medium;
@@ -185,9 +185,9 @@ section {
     border-width: 3%;
     margin: 1%;
     width: 10%;
-    border: solid;
+    border:outset;
     border-image-slice: 1;
-    border-width: 10px;
+    border-width: 20px;
     padding: 2%;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -202,21 +202,23 @@ section {
     padding: 4%;
     margin: auto;
     margin-top: 6%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
     flex-wrap: none;
     justify-content: center;
     align-content: flex-start;
     width: auto;
     background-color: #5100ff;
-    height: 50vh;
+    height: 60vh;
     overflow: auto;
     flex-direction: auto;
     border: 4%;
     padding: 2%;
     border: solid;
     border-image-slice: 1;
-    border-width: 4px;
+    border-width: 8px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
 }
 
     /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
@@ -227,7 +229,7 @@ aside {
     border-radius: 25px;
     border-width: 3%;
     margin: auto;
-    border: 2%;
+    border: 1%;
     padding: 6%;
     text-align: center;
     color: rgb(0, 0, 0);
